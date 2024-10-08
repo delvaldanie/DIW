@@ -1,0 +1,147 @@
+#colores-fondos{
+    background-color: rgb(0, 0, 0);
+    color: #FF0000;
+    opacity: 50%;
+}
+
+#tipografia {
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:large;
+        font-weight:4000;
+        line-height: 5%;
+    }
+    h3{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:medium;
+        font-weight:100;
+        line-height: 50%;
+    }
+    p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:small;
+        font-weight:800;
+        line-height: 90%;
+    }
+}
+   
+#espaciado{
+    div{
+        margin: 0cm;
+        padding: 1cm;
+        text-align: center;
+    }
+}
+
+#bordes-sombras{
+    div{
+        border-color: #FF0000;
+        border-style: dotted;
+        border-radius:1cap;
+        box-shadow: 5px 10px;
+    }
+}
+#posicionamiento{
+    div{
+        position: relative;
+        width: 200px;
+        height: 100px;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+}
+#productos{
+    li{
+        list-style-type:decimal;
+        list-style-position:inside;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+#botones{
+    button{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 255);
+        border-color: rgb(0, 0, 255);
+
+        border-style: solid;
+        border-radius:1cap;
+    }
+}
+
+#tablas{
+    table, tr, td{
+        border:2px solid #FF0000 ;
+        border-collapse: collapse;
+        padding: 30px;
+        text-align:center ;
+        
+
+    }
+    
+}
+#contenedor{
+    p{
+        padding: 10px;
+        margin: 10px;
+    }
+    ul{
+        padding: 50px;
+        margin: 10px;
+    }
+    li{
+        padding: 0px;
+        margin: 10px;
+    }
+}
+
+#imagenes{
+    img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        border-radius: 20%;
+        padding: 0px;
+        margin: 10px;
+    }
+}
+#formulario{
+    label{
+        padding: 10px;
+        margin: 10px;
+        font-size:medium;
+        border: 5px solid green;
+    }
+    
+}
+#enlaces{
+    ul>li>a{
+        text-decoration:dotted;
+        
+    }
+
+}
+#efectos-texto{
+    h3{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-shadow: 5px 5px rgb(0, 17, 255);
+        
+    }
+    p{
+        text-transform:lowercase ;
+        letter-spacing: 10px;
+        text-shadow: 5px 5px rgb(0, 17, 255);
+    }
+}
+#elementos-linea{
+    display: inline-block;
+}
+
+

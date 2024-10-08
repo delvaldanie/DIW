@@ -1,0 +1,38 @@
+#main{
+    background-color:grey;
+    color: black;
+    
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.especial{
+    color: blue;
+}
+
+h1+h2{
+    border: 2px solid #fffb00;
+}
+h2+h3{
+    border: 2px solid #fffb00;
+}
+ul>li{
+    color:plum;
+}
+ul>li>ul>li{
+    color:plum;
+}
+.antes{
+    border: 2px solid #ff8800;
+    background-color: pink;
+}
+p>img{
+    border:10px solid rgb(0, 0, 0);
+}
+p>span>img{
+    border:10px solid rgb(255, 0, 0);
+}
+p+h3{
+    border: 2px solid #ffffff;
+    background-color: rgb(25, 0, 255);
+}
