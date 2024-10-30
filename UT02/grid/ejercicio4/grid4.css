@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+
+}
+.contenedor{
+    border: 3px solid #f76707;
+    border-radius: 5px;
+    width: 450px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 2fr 4fr;
+    grid-template-areas: "head" "body" "body1";
+}
+.cont1,.cont2,.cont3,.cont4,.cont5,.cont6{
+    border:3px solid  #ffa94d;
+    background-color: #ffd8a8;
+    border-radius: 5px;
+    color: #d9480f ;
+    padding: 10px;
+    text-align: center;
+}
+.grid4{
+    grid-area: head;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}

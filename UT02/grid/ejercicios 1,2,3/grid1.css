@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+
+}
+.contenedor{
+    border: 3px solid #f76707;
+    border-radius: 5px;
+    width: 450px;
+    height: 200px;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr 4fr;
+}
+.cont1,.cont2,.cont3,.cont4,.cont5,.cont6,.cont7,.cont8,.cont9{
+    border:3px solid  #ffa94d;
+    background-color: #ffd8a8;
+    border-radius: 5px;
+    color: #d9480f ;
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+
+}
+.contenedor{
+    border: 3px solid #f76707;
+    border-radius: 5px;
+    width: 450px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "head head1 head1" 
+                            "body1 body body"
+                            "end end end"  ;
+                         
+}
+.cont1,.cont2,.cont3,.cont4{
+    border:3px solid  #ffa94d;
+    background-color: #ffd8a8;
+    border-radius: 5px;
+    color: #d9480f ;
+    padding: 10px;
+    text-align: center;
+}
+.cont1{
+    display: grid;
+    grid-area: head1;
+}
+.cont2{
+    display: grid;
+    grid-area: body1;
+}
+.cont3{
+    display: grid;
+    grid-area: body;
+}
+.cont4{
+    display: grid;
+    grid-area: end;
+}
+
