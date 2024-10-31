@@ -9,8 +9,9 @@ body{
     
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: 2fr 4fr;
-    grid-template-areas: "head" "body" "body1";
+    grid-template-areas: "head head head" 
+                            "body cont3 cont4"
+                            "body cont5 cont6";
 }
 .cont1,.cont2,.cont3,.cont4,.cont5,.cont6{
     border:3px solid  #ffa94d;
@@ -20,9 +21,21 @@ body{
     padding: 10px;
     text-align: center;
 }
-.grid4{
+.cont1{
     grid-area: head;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+}
+.cont2{
+    grid-area: body;
+}
+.cont3{
+    grid-area: cont3;
+}
+.cont4{
+    grid-area: cont4;
+}
+.cont5{
+    grid-area: cont5;
+}
+.cont6{
+    grid-area: cont6;
 }

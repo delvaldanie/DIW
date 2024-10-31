@@ -1,0 +1,42 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+}
+.contenedor{
+    display: flex;
+    place-content: stretch space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.tarjeta__elemento1, .tarjeta__elemento2, .tarjeta__elemento3{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 0px;
+    background-color: white;
+    border-radius: 3%;
+    height: 700px;
+    width: 470px;
+    text-align: center;
+    place-content: stretch space-between;
+    box-shadow: 0px 0px 4px black;
+}
+.perrete1, .perrete2, .perrete3{
+    height: 250px;
+    width: 200px;
+}
+.boton1, .boton2, .boton3{
+    background-color: #1E8449;
+    color: white;
+    padding: 20px 30px;
+    margin-bottom: 50px; 
+    margin-left: 150px;
+    margin-right: 150px;
+    text-decoration: none; 
+}
+.contenido1, .contenido2, .contenido3{
+    padding: 20px;
+}
+.titulo1, .titulo2, .titulo3{
+    color: #1E8449;
+}

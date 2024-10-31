@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    place-content: start center;
+}
+.card{
+    border-radius: 5px;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px;
+}
+.textos{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 15px;
+    color: white;
+}
+.banner{
+    border-radius: 5px;
+    width: 300px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 5px black;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+li{
+    margin: 10px;
+    margin-right: 40px;
+}
+.boton{
+    background-color: yellow;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+.contenedor-conciertos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+}
+@media only screen and (max-width: 600px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        width: 90%;
+        max-width: 1200px;
+    }
+    .contenedor-conciertos{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 900px;
+    }
+    .card{
+        border-radius: 5px;
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 5px 5px 5px;
+    }
+    .banner{
+        border-radius: 5px;
+        width: 250px;
+        margin: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        box-shadow: 5px 5px 5px black;
+        background-position: center;
+        background-size: cover;
+    }
+}

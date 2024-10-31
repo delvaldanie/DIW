@@ -1,0 +1,73 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+}
+.menu{
+    background-color: #239B56;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white; 
+}
+.seccion{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconoInicio{
+    display: flex;
+    justify-content: start;
+    
+}
+.menuNavegacion{
+    display: flex;
+    justify-content: end;
+    
+}
+.inicio,.documentación,.contacto{
+    margin-right: 40px;
+    text-decoration: none; 
+    color: white;
+}
+.contenido{
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.imagen{
+    margin-top: 100px;
+}
+.perrete{
+    border-radius: 33%;
+    width: 350px;
+    height: 225px;
+}
+.textoInicial{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column; 
+    padding: 0%;
+}
+.cabecera{
+    font-size: 4vw;
+    margin-bottom: 0%;
+}
+.parrafo{
+    font-size: 2vw;
+    margin-top: 0%;
+}
+.boton{
+    background-color: #1E8449;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 6px;  
+    text-decoration: none; 
+}
