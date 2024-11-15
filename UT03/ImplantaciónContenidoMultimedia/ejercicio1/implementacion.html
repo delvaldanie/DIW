@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <p>«Imagen 800x600»</p>
+        <img src="../imagenes/fondo1.jpg" style="height: 600px; width: 800px; background-repeat: no-repeat; object-fit: cover;">
+    </picture>
+    <picture>
+        <p>«Revisa el formato de la imagen»</p>
+        <picture>
+            <source srcset="../imagenes/fondo2.webp" type="image/webp" />
+            <source srcset="../imagenes/fondo2.jpg" type="image/jpg" />
+            <img src="../imagenes/fondo2.png" />
+            </picture>
+    </picture>
+    <br><br><br><br>
+    <picture>
+        <source srcset="../imagenes/fondo2.jpg" media="(max-width: 350px)" />
+        <source srcset="../imagenes/fondo22.jpg" media="(min-width: 351px) and (max-width:1024px)" />
+        <source srcset="../imagenes/fondo23.jpg" media="(min-width: 1025px)" />
+        <img src="../imagenes/fondo2.jpg"/>
+    </picture>
+</body>
+</html>
