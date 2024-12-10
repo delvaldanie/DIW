@@ -1,0 +1,59 @@
+body{
+    font-size: 2rem;
+   
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+}
+.caja1{
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-property: border-radius;
+}
+.desplazar:hover+.caja1{
+    transform: translate(400px,200px);
+    border-radius: 50%;
+}
+.caja2{
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.escalar:hover+.caja2{
+    transform: scale(3.5,1);
+    transform-origin: left top;
+    background-color: red;
+}
+.caja3{
+    transition-timing-function: step-end;
+    transition-duration: 3s;
+    transition-property: border;
+}
+.sesgado:hover+.caja3{
+    transform: skew(-45deg,15deg);
+    transform-origin: left bottom;
+    border: 20px solid red;
+}
+.caja4{
+    transition-timing-function: ease-out;
+    transition-duration: 4s;
+    transition-property: box-shadow;
+    
+}
+.rotacion:hover+.caja4{
+    transform: rotate(180deg);
+    box-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 25px blue, 0 0 200px blue;;
+}
+.caja5{
+    transition-timing-function: ease-in-out;
+    transition-duration: 5s;
+    transition-property: border-radius;
+    
+}
+.combinar:hover+.caja5{
+    transform: rotate(45deg) translate(400px,-600px) scale(1.2,1.2);
+    border-radius: 50%;
+}
